@@ -1,35 +1,39 @@
 ﻿
 @model User
-<div class="container col-md-12 shadow p-3 mb-5 bg-body-tertiary rounded border">
-    <div class="row">
+<div class="container col-md-12">
+    <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border">
+        <div class="col d-flex flex-column align-items-center mt-4 mb-4">
+            @{
+                if (Model != null && Model.Avatar != null && Model.Avatar.Length > 0)
+                {
+                    byte[] imageBytes = Model.Avatar;
+                    string imageBase64 = Convert.ToBase64String(imageBytes);
+                    string imageSrc = string.Format("data:image/jpeg;base64,{0}", imageBase64);
 
-        @{
-            if (Model != null && Model.Avatar != null && Model.Avatar.Length > 0)
-            {
-                byte[] imageBytes = Model.Avatar;
-                string imageBase64 = Convert.ToBase64String(imageBytes);
-                string imageSrc = string.Format("data:image/jpeg;base64,{0}", imageBase64);
-                <div class="col d-flex justify-content-center align-items-center">
                     <img src="@imageSrc" width="300px" height="300px" class="rounded-circle overflow-hidden border shadow" />
-                </div>
-            }
-            else
-            {
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="img/LogoWithout.png" width="300px" height="300px" class="rounded-circle overflow-hidden border shadow" />
-                </div>
-            }
-        }
-        <div class="col">
-            <h2>Login: </h2>
-            <h3>@Model.Login</h3>
-            <h2>First Name: </h2>
-            <h3>@Model.FirstName</h3>
-            <h2>Last Name: </h2>
-            <h3>@Model.LastName</h3>
-            <h2>Email: </h2>
-            <h3>@Model.Email</h3>
 
+                }
+                else
+                {
+                    <img src="img/LogoWithout.png" width="300px" height="300px" class="rounded-circle overflow-hidden border shadow" />
+                }
+            }
+
+            <h2>Groups: 5</h2>
+            <h2>Tasks: 10</h2>
+            <h2>Unfinished Tasks: 10</h2>
+
+            <div class="progress mt-3" style="width: 400px; height: 20px">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+            <h3 class="mt-4">Ratio Of Unfinished Tasks: 10</h3>
+
+        </div>
+        <div class="col align-content-center border-start ps-5">
+            <h2 class="mt-4">Login: @Model.Login</h2>
+            <h2 class="mt-4">First Name: @Model.FirstName</h2>
+            <h2 class="mt-4">Last Name: @Model.LastName</h2>
+            <h2 class="mt-4">Email: @Model.Email</h2>
         </div>
     </div>
 

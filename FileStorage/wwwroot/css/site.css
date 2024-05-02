@@ -1,4 +1,16 @@
 
+body {
+    background-color: WhiteSmoke;
+}
+
+.row {
+    background-color: white; 
+}
+
+/*footer {
+    background-color: white;
+}*/
+
 
 html {
   font-size: 14px;
@@ -17,10 +29,6 @@ html {
 html {
   position: relative;
   min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
 }
 
 .main-font{
