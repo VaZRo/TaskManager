@@ -1,0 +1,36 @@
+﻿
+@model User
+<div class="container col-md-12 shadow p-3 mb-5 bg-body-tertiary rounded border">
+    <div class="row">
+
+        @{
+            if (Model != null && Model.Avatar != null && Model.Avatar.Length > 0)
+            {
+                byte[] imageBytes = Model.Avatar;
+                string imageBase64 = Convert.ToBase64String(imageBytes);
+                string imageSrc = string.Format("data:image/jpeg;base64,{0}", imageBase64);
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img src="@imageSrc" width="300px" height="300px" class="rounded-circle overflow-hidden border shadow" />
+                </div>
+            }
+            else
+            {
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img src="img/LogoWithout.png" width="300px" height="300px" class="rounded-circle overflow-hidden border shadow" />
+                </div>
+            }
+        }
+        <div class="col">
+            <h2>Login: </h2>
+            <h3>@Model.Login</h3>
+            <h2>First Name: </h2>
+            <h3>@Model.FirstName</h3>
+            <h2>Last Name: </h2>
+            <h3>@Model.LastName</h3>
+            <h2>Email: </h2>
+            <h3>@Model.Email</h3>
+
+        </div>
+    </div>
+
+</div>

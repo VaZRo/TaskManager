@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container col-md-12">
+    <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border align-items-center">
+
+        <div class="intro-left col-md p-4 order-md-1 order-1">
+            <img class="img-fluid" src="img/LogoWith.png"/>
+        </div>
+        <div class="intro-right col-md p-4 order-md-2 order-2 border-start">
+            <h1>Home Of Tasks</h1>
+            <h2 class="mb-2">For What?</h2>
+            <ul class="text-justify">
+                <li class="mb-2">
+                    Personal Planning: Helps track personal goal, create steps to achieve them, and monitor progress.
+                </li>
+                <li class="mb-2">
+                    Project Management: Ideal for managing projects of any scale, from small tasks to large endeavors.
+                </li>
+                <li class="mb-2">
+                    Learning and Development: Can be used to manage learning goals, develop learning plans, and track personal progress in education.
+                </li>
+                <li class="mb-2">
+                    Business Strategy: Helps formulate business strategic goals, identify key initiatives, and track the execution of strategic tasks.
+                </li>
+            </ul>
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <a class="btn btn-dark btn-lg d-block mx-auto" asp-controller="User" asp-action="Register">Register</a>
+            }
+            else
+            {
+                <a class="btn btn-dark btn-lg d-block mx-auto">To Tasks</a>
+            }
+        </div>
+    </div>
+
+    <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border align-items-center">
+        <div class="intro-left col-md p-4 order-md-1 order-2 border-end">
+            <h1>Personal Planning:</h1>
+            <p class="main-font">Personal planning tools are essential for individuals who want to set and achieve their personal goals effectively. These tools typically include features such as goal setting, task management, progress tracking, and reminders. Users can create specific goals, break them down into smaller tasks, allocate deadlines, and monitor their progress over time. Personal planning tools can help individuals stay organized, focused, and motivated to achieve their aspirations.</p>
+        </div>
+        <div class="intro-right col-md p-4 order-md-2 order-1">
+            <img src="img/PersonalPlanning.jpg" class="img-fluid" />
+        </div>
+    </div>
+
+    <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border align-items-center">
+        <div class="intro-left col-md p-4 order-md-1 order-1">
+            <img src="img/ProjectManagement.jpg" class="img-fluid" />
+        </div>
+        <div class="intro-right col-md p-4 order-md-2 order-2 border-start">
+            <h2>Project Management:</h2>
+            <p class="main-font">Project management tools are designed to facilitate the planning, execution, and monitoring of projects of varying sizes and complexities. They typically offer features such as task management, scheduling, resource allocation, budget tracking, and communication tools. Project managers can use these tools to create project plans, assign tasks to team members, set deadlines, track progress, identify bottlenecks, and ensure that projects are completed on time and within budget.</p>
+        </div>
+    </div>
+
+    
+    <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border align-items-center">
+        <div class="intro-left col-md p-4 order-md-1 order-2 border-end">
+            <h2>Learning and Development:</h2>
+            <p class="main-font">Learning and development tools are designed to facilitate personal and professional growth by helping individuals set learning goals, create learning plans, and track their progress over time. These tools may include features such as goal setting, course recommendations, progress tracking, skill assessments, and certification tracking. Users can use learning and development tools to identify areas for improvement, acquire new skills and knowledge, and advance their careers.</p>
+        </div>
+        <div class="intro-right col-md p-4 order-md-2 order-1">
+            <img src="img/LearningandDevelopment.jpg" class="img-fluid"/>
+        </div>
+    </div>
+
+    <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border align-items-center">
+        <div class="intro-left col-md p-4 order-md-1 order-1">
+            <img src="img/BusinessStrategy.jpg" class="img-fluid" />
+        </div>
+        <div class="intro-right col p-4 order-md-2 order-2 border-start">
+            <h2>Business Strategy:</h2>
+            <p class="main-font">Business strategy tools are essential for organizations looking to formulate and execute their strategic goals effectively. These tools typically include features such as goal setting, SWOT analysis, strategic planning, performance monitoring, and reporting. Business leaders can use these tools to define their long-term vision, identify key initiatives, allocate resources, track progress, and make informed decisions to achieve their strategic objectives.</p>
+        </div>
+    </div>
+
+</div>
