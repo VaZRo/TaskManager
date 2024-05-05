@@ -3,8 +3,12 @@ body {
     background-color: WhiteSmoke;
 }
 
+.auth-form{
+    background-color: whitesmoke !important;
+}
+
 .row {
-    background-color: white; 
+    background-color: white;
 }
 
 /*footer {

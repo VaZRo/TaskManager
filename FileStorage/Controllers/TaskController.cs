@@ -8,5 +8,10 @@ namespace TaskManager.Controllers
         {
             return View();
         }
+
+        public IActionResult Task()
+        {
+            return View();
+        }
     }
 }

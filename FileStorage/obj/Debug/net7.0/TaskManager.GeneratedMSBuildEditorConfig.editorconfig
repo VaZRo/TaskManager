@@ -9,65 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskManager
 build_property.RootNamespace = TaskManager
-build_property.ProjectDir = C:\Users\досановт\Desktop\FileStorage\FileStorage\
+build_property.ProjectDir = C:\Users\User\Desktop\TaskManager\TaskManager\FileStorage\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\досановт\Desktop\FileStorage\FileStorage
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\TaskManager\TaskManager\FileStorage
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Home/About.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Home/Contact.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Home/Privacy.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Task/Group.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Task/AddGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xBZGRHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Task/AddTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xBZGRUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Task/Group.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xHcm91cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/User/Login.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Task/RemoveTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xSZW1vdmVUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Task/Task.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/User/Logout.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/User/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/User/Profile.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/User/Register.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/досановт/Desktop/FileStorage/FileStorage/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/TaskManager/TaskManager/FileStorage/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4at7gu650a

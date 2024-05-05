@@ -5,8 +5,14 @@ namespace TaskManager.Contexts
 {
     public class UserContext : DbContext
     {
-        public UserContext(DbContextOptions<UserContext> options) : base(options) { }
+        public DbSet<Models.User> users { get; set; }
+        public DbSet<Models.Task> tasks { get; set; }
+        public DbSet<Models.Group> groups { get; set; }
+        public UserContext(DbContextOptions<UserContext> options) : base(options) 
+        {
+            Database.EnsureCreated();
+        }
 
-        public DbSet<User> users { get; set; }
+        
     }
 }
