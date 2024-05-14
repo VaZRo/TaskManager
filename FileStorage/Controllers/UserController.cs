@@ -62,48 +62,11 @@ namespace TaskManager.Controllers
                     await _context.SaveChangesAsync();
                     return RedirectToAction("Login");
                 }
-                TempData["ErrorMessage"] = "Логин уже занят.";
+                
             }
             return View();
         }
 
-
-        //[HttpPost]
-        //public async Task<IActionResult> Register([Bind("Id, Login, Password, FirstName, LastName, Email")] User user, IFormFile avatar)
-        //{
-        //    if(ModelState.IsValid)
-        //    {
-        //        User? _user = _context.users.FirstOrDefault(x => x.Login == user.Login);
-        //        if (_user == null) 
-        //        {
-        //            if(avatar != null && avatar.Length > 0)
-        //            {
-        //                using (MemoryStream ms = new MemoryStream())
-        //                {
-        //                    await avatar.CopyToAsync(ms);
-        //                    user.Avatar = ms.ToArray();
-        //                }
-        //            }
-        //            _context.Add(user);
-        //            await _context.SaveChangesAsync();
-        //            return RedirectToAction("Login");
-        //        }
-        //        TempData["ErrorMessage"] = "Логин уже занят.";
-
-        //    }
-
-        //    // Выводим ошибки валидации
-        //    foreach (var modelStateEntry in ModelState.Values)
-        //    {
-        //        foreach (var error in modelStateEntry.Errors)
-        //        {
-        //            var errorMessage = error.ErrorMessage;
-        //            Console.WriteLine(errorMessage);
-        //        }
-        //    }
-
-        //    return View();
-        //}
 
         [HttpPost]
         public async Task<IActionResult> Login(string login, string password)
@@ -113,14 +76,25 @@ namespace TaskManager.Controllers
                 User _user = _context.users.FirstOrDefault(u => u.Login == login && u.Password == password);
                 if (_user != null)
                 {
-                    var claims = new List<Claim>() { new Claim(ClaimTypes.Name, login) };
+                    var claims = new List<Claim>() {
+                        new Claim(ClaimTypes.Name, login),
+                        new Claim(ClaimTypes.NameIdentifier, _user.Id.ToString()),
+                    };
                     ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
                     return RedirectToAction("Privacy", "Home");
                 }
+                else
+                {
+                    TempData["ErrorMessage"] = "User With This Login Doesn't exist.";
+                }
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Login and password are required.";
             }
 
-            return Unauthorized();
+            return View();
         }
 
         [Authorize]

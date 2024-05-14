@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\img\\ProjectManagement.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\wwwroot\\img\\defaultImage.jpg",
+      "PackagePath": "staticwebassets\\img\\defaultImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\wwwroot\\img\\defaultProfile.png",
+      "PackagePath": "staticwebassets\\img\\defaultProfile.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

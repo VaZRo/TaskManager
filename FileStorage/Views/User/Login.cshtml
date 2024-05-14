@@ -4,12 +4,12 @@
 *@
 @{
 }
-@if (TempData["ErrorMessage"] != null)
+@* @if (TempData["ErrorMessage"] != null)
 {
     <script>
         alert("@Html.Raw(TempData["ErrorMessage"].ToString().Replace("\"", "\\\""))");
     </script>
-}
+} *@
 
 <section class="py-3 py-md-5">
     <div class="container">
@@ -20,6 +20,7 @@
                         <div class="text-center mb-3">
                         </div>
                         <h2 class="fs-6 fw-normal text-center text-secondary mb-4">Sign in to your account</h2>
+                        <div class="text-danger">@Html.Raw(TempData["ErrorMessage"])</div>
                         <form asp-action="Login" method="post">
                             <div class="row gy-2 overflow-hidden">
                                 <div class="col-12">
