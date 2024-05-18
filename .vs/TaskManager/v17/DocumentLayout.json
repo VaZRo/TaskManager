@@ -78,8 +78,7 @@
               "RelativeToolTip": "FileStorage\\Views\\User\\Login.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T18:30:56.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:30:56.353Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "FileStorage\\Models\\User.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:35:15.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:35:15.917Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "FileStorage\\Views\\Task\\AddTask.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T18:29:19.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:29:19.852Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "FileStorage\\Models\\TaskModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:57:54.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:57:54.842Z"
             },
             {
               "$type": "Document",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "FileStorage\\Controllers\\UserController.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAAAswD4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:11:06.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:11:06.946Z"
             },
             {
               "$type": "Document",
@@ -155,8 +150,7 @@
               "RelativeToolTip": "FileStorage\\Views\\Task\\AddGroup.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T18:30:29.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:30:29.699Z"
             },
             {
               "$type": "Document",
@@ -168,8 +162,7 @@
               "RelativeToolTip": "FileStorage\\Views\\Task\\TasksPage.cshtml",
               "ViewState": "AQIAACAAAAAAAAAAAAAAwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T18:30:19.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T18:30:19.854Z"
             },
             {
               "$type": "Document",
@@ -181,8 +174,7 @@
               "RelativeToolTip": "FileStorage\\Views\\User\\Register.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T16:34:10.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T16:34:10.402Z"
             },
             {
               "$type": "Document",
@@ -206,8 +198,7 @@
               "RelativeToolTip": "FileStorage\\Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:46:46.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T13:46:46.165Z"
             },
             {
               "$type": "Document",
@@ -231,8 +222,7 @@
               "RelativeToolTip": "FileStorage\\Controllers\\TaskController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAiwHoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:28:01.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:28:01.595Z"
             },
             {
               "$type": "Document",
