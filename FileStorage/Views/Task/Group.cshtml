@@ -5,6 +5,7 @@
 
 <div class="container col-md-12">
     <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border justify-content-evenly">
+        <a asp-action="AddGroup" class="btn btn-primary mb-2">Add New Group</a>
         @foreach(var item in Model)
         {
             <div class="card border rounded shadow" style="width: 18rem;">
@@ -35,6 +36,10 @@
                         </li>
                     </ul>
                     <a asp-action="TasksPage" asp-route-group="@item.Id" class="btn btn-dark mt-2">To Tasks</a>
+@*                     <form method="post" asp-action="DeleteGroup">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form> *@
                 </div>
             </div>
         }

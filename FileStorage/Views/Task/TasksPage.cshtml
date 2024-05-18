@@ -6,11 +6,23 @@
 
 <div class="container col-md-12">
     <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border justify-content-evenly">
-        <a asp-action="AddTask" asp-route-group="@idValue" class="btn btn-primary"></a>
+        <a asp-action="AddTask" asp-route-group="@idValue" class="btn btn-primary mb-2">Add New Task</a>
         @foreach (var item in Model)
         {
             <div class="card border rounded shadow" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                @{
+                    if (item != null && item.Avatar != null && item.Avatar.Length > 0)
+                    {
+                        byte[] imageBytes = item.Avatar;
+                        string imageBase64 = Convert.ToBase64String(imageBytes);
+                        string imageSrc = string.Format("data:image/jpeg;base64,{0}", imageBase64);
+                        <img src="@imageSrc" width="200px" height="170px" class="card-img-top pt-2" />
+                    }
+                    else
+                    {
+                        <img src="~/img/defaultImage.jpg" width="200px" height="170px" class="card-img-top pt-2" alt="...">
+                    }
+                }
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
                     <p class="card-text">@item.Description</p>
@@ -25,8 +37,14 @@
                             <span>Deadline: @item.DeadLine.Day/@item.DeadLine.Month/@item.DeadLine.Year</span>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn-dark mt-2">Info</a>
-                    <a href="#" class="btn btn-danger mt-2">Delete</a>
+                    <form method="post" asp-action="DeleteTask">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-dark">Info</button>
+                    </form>
+                    <form method="post" asp-action="DeleteTask">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
                 </div>
             </div>
 

@@ -116,6 +116,15 @@ namespace TaskManager.Controllers
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> DeleteTask(int id)
+        {
+            var task = _context.tasks.FirstOrDefault(i => i.Id == id);
+            _context.tasks.Remove(task);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("TasksPage", "Task", new {group = task.GroupId});
+        }
+
 
     }
 }
