@@ -1,1 +1,63 @@
-﻿
+﻿@model TaskModel
+@{
+    var idValue = ViewContext.RouteData.Values["group"];
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @Html.Raw(TempData["ErrorMessage"])
+    </div>
+}
+
+<section class="py-3 py-md-5">
+    <div class="container">
+        <div class="auth-form row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                <div class="card border border-light-subtle rounded-3 shadow-sm">
+                    <div class="card-body p-3 p-md-4 p-xl-5">
+                        <div class="text-center mb-3">
+                        </div>
+                        <h2 class="fs-6 fw-normal text-center text-secondary mb-4">Create New Task</h2>
+                        <form asp-action="AddTask" method="post" enctype="multipart/form-data">
+                            <div class="row gy-2 overflow-hidden">
+                                <div class="col-12">
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="Name" type="text" class="form-control" name="Name" id="Name" value="" placeholder="name" required>
+                                        <label asp-for="Name" for="Name" class="form-label">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="Description" type="text" class="form-control" name="Description" id="Description" value="" placeholder="description" required>
+                                        <label asp-for="Description" for="Description" class="form-label">Description</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label asp-for="DeadLine" class="form-label"></label>
+                                    <input asp-for="DeadLine" class="form-control" type="date" />
+                                    <span asp-validation-for="DeadLine" class="text-danger"></span>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="avatarFile">Avatar</label>
+                                        <input type="file" id="avatarFile" name="avatarFile" class="form-control-file" />
+                                    </div>
+                                </div>
+
+                                <input type="hidden" asp-for="GroupId" value="@idValue" />
+
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                <div class="col-12">
+                                    <div class="d-grid my-3">
+                                        <input value="Add" class="btn btn-primary btn-lg" type="submit" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

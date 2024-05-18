@@ -1,6 +1,6 @@
 ﻿@model List<TaskManager.Models.Group>
 @{
-    ViewData["Title"] = "Group Page";
+    ViewData["Title"] = "Groups Page";
 }
 
 <div class="container col-md-12">
@@ -34,7 +34,7 @@
                             <span>Overdut Task: </span>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn-dark mt-2">To Tasks</a>
+                    <a asp-action="TasksPage" asp-route-group="@item.Id" class="btn btn-dark mt-2">To Tasks</a>
                 </div>
             </div>
         }

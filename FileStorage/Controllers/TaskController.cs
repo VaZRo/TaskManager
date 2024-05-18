@@ -28,8 +28,28 @@ namespace TaskManager.Controllers
             return View(groups.ToList());
         }
 
-        
-        public IActionResult Task()
+
+        public IActionResult TasksPage(int group)
+        {
+            Models.Group groupModel = _context.groups.FirstOrDefault(g => g.Id == group);
+            var claimsIdentity = HttpContext.User.Identity as ClaimsIdentity;
+            int userId = Int32.Parse(claimsIdentity.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+
+            if(groupModel == null)
+            {
+                return NotFound();
+            }
+
+            if(userId == groupModel.UserId)
+            {
+                IQueryable<TaskModel> tasks = _context.tasks.Where(t => t.GroupId == group);
+                return View(tasks.ToList());
+            }
+
+            return NotFound();
+        }
+
+        public IActionResult AddTask()
         {
             return View();
         }
@@ -58,6 +78,42 @@ namespace TaskManager.Controllers
             await _context.SaveChangesAsync();
             
             return RedirectToAction("Group");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddTask(Models.TaskModel task, IFormFile avatarFile)
+        {
+            Models.Group groupModel = _context.groups.FirstOrDefault(g => g.Id == task.GroupId);
+            var claimsIdentity = HttpContext.User.Identity as ClaimsIdentity;
+            int userId = Int32.Parse(claimsIdentity.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+
+            if(groupModel.UserId != userId)
+            {
+                return NotFound();
+            }
+
+
+            if(avatarFile != null && avatarFile.Length > 0)
+            {
+                using(var memoryStream = new MemoryStream())
+                {
+                    await avatarFile.CopyToAsync(memoryStream);
+                    task.Avatar = memoryStream.ToArray();
+                }
+            }
+
+            if(task.DeadLine.Date >= DateTime.UtcNow)
+            {
+                task.CompletedOn = 0;
+                _context.Add(task);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("TasksPage", "Task", new { group = task.GroupId });
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Deadline cannot be set in the past.";
+            }
+            return View();
         }
 
 

@@ -12,7 +12,7 @@ using TaskManager.Contexts;
 namespace TaskManager.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20240513181054_InitialCreate")]
+    [Migration("20240517175227_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -65,9 +65,8 @@ namespace TaskManager.Migrations
                     b.Property<byte[]>("Avatar")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<string>("CompletedOn")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CompletedOn")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DeadLine")
                         .HasColumnType("datetime2");

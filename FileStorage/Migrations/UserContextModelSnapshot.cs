@@ -62,9 +62,8 @@ namespace TaskManager.Migrations
                     b.Property<byte[]>("Avatar")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<string>("CompletedOn")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CompletedOn")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DeadLine")
                         .HasColumnType("datetime2");

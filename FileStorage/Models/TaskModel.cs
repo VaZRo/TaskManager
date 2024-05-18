@@ -2,15 +2,14 @@
 
 namespace TaskManager.Models
 {
-    public class Task
+    public class TaskModel
     {
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
         public string Description { get; set; }
-        [Required]
-        public string CompletedOn { get; set; }
+        public int? CompletedOn { get; set; }
         [Required]
         public DateTime DeadLine { get; set; }
         public int GroupId { get; set; }

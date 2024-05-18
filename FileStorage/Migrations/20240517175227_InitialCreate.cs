@@ -59,7 +59,7 @@ namespace TaskManager.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CompletedOn = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CompletedOn = table.Column<int>(type: "int", nullable: false),
                     DeadLine = table.Column<DateTime>(type: "datetime2", nullable: false),
                     GroupId = table.Column<int>(type: "int", nullable: false),
                     Avatar = table.Column<byte[]>(type: "varbinary(max)", nullable: true)

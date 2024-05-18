@@ -62,6 +62,10 @@ namespace TaskManager.Controllers
                     await _context.SaveChangesAsync();
                     return RedirectToAction("Login");
                 }
+                else
+                {
+                    TempData["ErrorMessage"] = "User With This Login Already exist.";
+                }
                 
             }
             return View();
