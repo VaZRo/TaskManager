@@ -8,6 +8,7 @@ using System.Security.Claims;
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using System.Linq;
 
 namespace TaskManager.Controllers
 {
@@ -115,6 +116,27 @@ namespace TaskManager.Controllers
             var login = claimsIdentity.FindFirst(ClaimTypes.Name)?.Value;
 
             User _user = _context.users.FirstOrDefault(u => u.Login == login);
+            var finishedTaskCount = _context.tasks
+            .Join(_context.groups,
+                  t => t.GroupId,
+                  g => g.Id,
+                  (t, g) => new { Task = t, Group = g })
+            .Where(tg => tg.Group.UserId == _user.Id && tg.Task.CompletedOn == 100)
+            .Count();
+
+            var allTaskCount = _context.tasks
+            .Join(_context.groups,
+                  t => t.GroupId,
+                  g => g.Id,
+                  (t, g) => new { Task = t, Group = g })
+            .Where(tg => tg.Group.UserId == _user.Id)
+            .Count();
+
+            int groupsCount = _context.groups.Where(g => g.UserId == _user.Id).Count();
+
+            ViewBag.GroupsCount = groupsCount;
+            ViewBag.TaskCount = allTaskCount;
+            ViewBag.FinishedTasks = finishedTaskCount;
 
             return View(_user);
         }
