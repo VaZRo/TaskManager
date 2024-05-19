@@ -9,6 +9,16 @@
         <a asp-action="AddTask" asp-route-group="@idValue" class="btn btn-primary mb-2">Add New Task</a>
         @foreach (var item in Model)
         {
+            string cardColor = "black";
+            if(item.DeadLine.Date < DateTime.UtcNow.Date && item.CompletedOn != 100)
+            {
+                cardColor = "red";
+            }
+            if(item.CompletedOn == 100)
+            {
+                cardColor = "Green";
+            }
+
             <div class="card border rounded shadow" style="width: 18rem;">
                 @{
                     if (item != null && item.Avatar != null && item.Avatar.Length > 0)
@@ -33,7 +43,7 @@
                                 <div class="progress-bar" style="width: @item.CompletedOn%" role="progressbar" aria-label="Basic example" aria-valuenow="@item.CompletedOn" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </li>
-                        <li class="list-group-item ps-0">
+                        <li class="list-group-item ps-0" style="color: @cardColor">
                             <span>Deadline: @item.DeadLine.Day/@item.DeadLine.Month/@item.DeadLine.Year</span>
                         </li>
                     </ul>

@@ -8,7 +8,9 @@
         <a asp-action="AddGroup" class="btn btn-primary mb-2">Add New Group</a>
         @foreach(var item in Model)
         {
+            int overdueTasks = 0; 
             <div class="card border rounded shadow" style="width: 18rem;">
+
                 @{
                     if(item != null && item.Avatar != null && item.Avatar.Length > 0)
                     {
@@ -26,21 +28,42 @@
                     <h5 class="card-title">@item.Name</h5>
                     <ul class="list-group list-group-flush border-bottom border-top">
                         <li class="list-group-item ps-0">
-                            <span>Completed Tasks:</span>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar w-75"></div>
-                            </div>
+                            <span>Completed Tasks: @{
+                                    var ratio = ViewBag.Ratio as Dictionary<int, int>;
+                                    if(ratio != null && ratio.TryGetValue(item.Id, out int ratioCount))
+                                    {
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: @ratioCount%" role="progressbar" aria-label="Basic example" aria-valuenow="@ratioCount" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    }
+                                }
+                            </span>
+
                         </li>
                         <li class="list-group-item ps-0">
-                            <span>Overdut Task: </span>
+                            <span>
+                                Overdut Task: @{
+                                    var overdueCounter = ViewBag.OverdueCounter as Dictionary<int, int>;
+                                    if (overdueCounter != null && overdueCounter.TryGetValue(item.Id, out int count))
+                                    {
+                                        @count
+                                    }
+                                    else
+                                    {
+                                        @:0
+                                    }
+                                }
+                            </span>
                         </li>
                     </ul>
                     <a asp-action="TasksPage" asp-route-group="@item.Id" class="btn btn-dark mt-2">To Tasks</a>
                     <a asp-action="DeleteGroup" asp-route-groupId="@item.Id" class="btn btn-danger mt-2">Delete</a>
-@*                     <form method="post" asp-action="DeleteGroup">
-                        <input type="hidden" name="id" value="@item.Id" />
-                        <button type="submit" class="btn btn-danger">Delete</button>
-                    </form> *@
                 </div>
             </div>
         }

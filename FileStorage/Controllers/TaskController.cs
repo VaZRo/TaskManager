@@ -25,8 +25,31 @@ namespace TaskManager.Controllers
             var id = Int32.Parse(claimsIdentity.FindFirst(ClaimTypes.NameIdentifier)?.Value);
 
             IQueryable<Models.Group> groups = _context.groups.Where(g => g.UserId == id);
+            
+            var groupsList = groups.ToList();
+            
+            // Подсчет просроченных задач
+            
+            Dictionary<int, int> ovredueByGroupId = new Dictionary<int, int>();
+            Dictionary<int, int> ratioOfUnfinishedTask = new Dictionary<int, int>();
 
-            return View(groups.ToList());
+            foreach(var group in groupsList)
+            {
+                ovredueByGroupId.Add(group.Id, _context.tasks.Where(t => t.GroupId == group.Id && t.DeadLine.Date < DateTime.UtcNow.Date).Count());
+                int amountOfFinishedTasks = _context.tasks.Where(t => t.GroupId == group.Id && t.CompletedOn == 100).Count();
+                int generalAmount = _context.tasks.Where(t => t.GroupId == group.Id).Count();
+                double ratio = (double)amountOfFinishedTasks / generalAmount * 100;
+
+                ratioOfUnfinishedTask.Add(group.Id,  (int)Math.Round(ratio));
+            }
+            ViewBag.OverdueCounter = ovredueByGroupId;
+            ViewBag.Ratio = ratioOfUnfinishedTask;
+
+            // Подсчет выполненых заданий к невыполенных
+
+
+
+            return View(groupsList);
         }
 
 
@@ -62,6 +85,7 @@ namespace TaskManager.Controllers
         [HttpPost]
         public async Task<IActionResult> AddGroup(Models.Group group, IFormFile avatarFile)
         {
+
             if (avatarFile != null && avatarFile.Length > 0)
             {
                 using (var memoryStream = new MemoryStream())
