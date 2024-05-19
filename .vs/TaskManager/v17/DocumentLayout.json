@@ -1,62 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\TaskManager\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\task\\group.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\group.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\task\\taskspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\taskspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\task\\addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\task\\addgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\addgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\filestorage\\views\\task\\removetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\removetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\task\\infotask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\infotask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\task\\taskspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\taskspage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EventsDb/True/SqlTable/dbo.tasks.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\task\\group.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\group.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\task\\addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\task\\addgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\task\\addgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|c:\\users\\user\\desktop\\taskmanager\\taskmanager\\filestorage\\views\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{525351CC-0EBB-4B3C-9099-9962DE43F1EE}|FileStorage\\TaskManager.csproj|solutionrelative:filestorage\\views\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,27 +73,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\User\\Login.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAABQAAAA",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwCEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T18:30:56.353Z"
+              "WhenOpened": "2024-05-19T07:59:41.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "FileStorage\\Models\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Models\\TaskModel.cs",
+              "RelativeToolTip": "FileStorage\\Models\\TaskModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:38:58.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfoTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\InfoTask.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\InfoTask.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\InfoTask.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Task\\InfoTask.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T06:09:10.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TasksPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\TasksPage.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\TasksPage.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\TasksPage.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Task\\TasksPage.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T18:30:19.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T16:34:10.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\User\\Logout.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\User\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\User\\Logout.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\User\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T16:42:58.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Program.cs",
+              "RelativeDocumentMoniker": "FileStorage\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Program.cs",
+              "RelativeToolTip": "FileStorage\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswCoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T13:46:46.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "FileStorage\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "FileStorage\\Controllers\\TaskController.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAUwLEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:28:01.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwBUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T16:30:07.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.tasks [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EventsDb/True/SqlTable/dbo.tasks.sql",
+              "ToolTip": "dbo.tasks [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-19T06:54:56.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Group.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\Group.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\Group.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\Group.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Task\\Group.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T17:34:59.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\AddTask.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\AddTask.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\AddTask.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Task\\AddTask.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T18:29:19.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddGroup.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\AddGroup.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\AddGroup.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\Task\\AddGroup.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\Task\\AddGroup.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T18:30:29.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FileStorage\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FileStorage\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAswD4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:11:06.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Models\\User.cs",
               "RelativeDocumentMoniker": "FileStorage\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Models\\User.cs",
               "RelativeToolTip": "FileStorage\\Models\\User.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,147 +264,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAAAlAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "FileStorage\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "FileStorage\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T16:30:07.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddTask.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\AddTask.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\AddTask.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\AddTask.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\Task\\AddTask.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T18:29:19.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TaskModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Models\\TaskModel.cs",
-              "RelativeDocumentMoniker": "FileStorage\\Models\\TaskModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Models\\TaskModel.cs",
-              "RelativeToolTip": "FileStorage\\Models\\TaskModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:57:54.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FileStorage\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FileStorage\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAswD4AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:11:06.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddGroup.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\AddGroup.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\AddGroup.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\AddGroup.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\Task\\AddGroup.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T18:30:29.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TasksPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\TasksPage.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\TasksPage.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\TasksPage.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\Task\\TasksPage.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAwCsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T18:30:19.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\User\\Register.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T16:34:10.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\User\\Logout.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\User\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\User\\Logout.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\User\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T16:42:58.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Program.cs",
-              "RelativeDocumentMoniker": "FileStorage\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Program.cs",
-              "RelativeToolTip": "FileStorage\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:46:46.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RemoveTask.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\RemoveTask.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\RemoveTask.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\RemoveTask.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\Task\\RemoveTask.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T18:30:40.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "FileStorage\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "FileStorage\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAiwHoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:28:01.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Group.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\Group.cshtml",
-              "RelativeDocumentMoniker": "FileStorage\\Views\\Task\\Group.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\Views\\Task\\Group.cshtml",
-              "RelativeToolTip": "FileStorage\\Views\\Task\\Group.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T17:34:59.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:30:56.353Z"
             }
           ]
         }

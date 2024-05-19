@@ -28,8 +28,26 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{group?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{group?}");
+
+    endpoints.MapControllerRoute(
+        name: "group",
+        pattern: "Task/Group/{groupId}",
+        defaults: new { controller = "Task", action = "DeleteGroup" });
+
+    endpoints.MapControllerRoute(
+    name: "task",
+    pattern: "Task/Group/{taskId}",
+    defaults: new { controller = "Task", action = "DeleteTask" });
+});
+
+
+//app.MapControllerRoute(
+//name: "default",
+//pattern: "{controller=Home}/{action=Index}/{group?}");
 
 app.Run();

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
 using TaskManager.Contexts;
@@ -116,15 +117,65 @@ namespace TaskManager.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> DeleteTask(int id)
+        public async Task<IActionResult> DeleteTask(int taskId)
         {
-            var task = _context.tasks.FirstOrDefault(i => i.Id == id);
+            var task = _context.tasks.FirstOrDefault(i => i.Id == taskId);
             _context.tasks.Remove(task);
             await _context.SaveChangesAsync();
             return RedirectToAction("TasksPage", "Task", new {group = task.GroupId});
         }
 
+        public async Task<IActionResult> DeleteGroup(int groupId)
+        {
+            var tasks = _context.tasks.Where(i => i.GroupId == groupId).ToList();
+            foreach (var task in tasks)
+            {
+                _context.tasks.Remove(task);
+                await _context.SaveChangesAsync();
+            }
+
+            var group = _context.groups.FirstOrDefault(g => g.Id == groupId);
+            _context.groups.Remove(group);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Group");
+        }
+
+        public IActionResult InfoTask(int? taskId)
+        {
+            if(taskId == null)
+            {
+                return NotFound();
+            }
+            var task = _context.tasks.FirstOrDefault(t => t.Id == taskId);
+
+            if(task == null)
+            {
+                return NotFound();
+            }
+
+            var claimsIdentity = HttpContext.User.Identity as ClaimsIdentity;
+            int userId = Int32.Parse(claimsIdentity.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            var taskGroup = _context.groups.FirstOrDefault(g => g.Id == task.GroupId);
+            int TaskUserId = _context.groups.Select(g => g.UserId).FirstOrDefault();
+
+            if (userId != TaskUserId) 
+            {
+                return NotFound();
+            }
+
+            return View(task);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> InfoTask(Models.TaskModel task)
+        {
+            var taskImage = _context.tasks.Where(t => t.Id == task.Id).Select(t => t.Avatar).FirstOrDefault();
+            task.Avatar = taskImage;
+
+            _context.tasks.Update(task);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("TasksPage", "Task", new { group = task.GroupId });
+        }
 
     }
 }

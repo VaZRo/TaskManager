@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F5w2EbcbXEMkLVB+tqEbGMWfs2ZvVOhFWySPtvB1VAOeNV9WRTrvDTfQ3+8bzvb/sNXB++314sRmFyZC94/1QA==",
+  "dgSpecHash": "Xs4FUV+/241oVx0WRN9qvXZQD6QVwwMffvncZTfneKIV4eMfPUX9Jkc6xqUBFc91pQS7MrEF3fpRNj77jSTzdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\TaskManager\\FileStorage\\TaskManager.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\TaskManager\\TaskManager\\FileStorage\\TaskManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

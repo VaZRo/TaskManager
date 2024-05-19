@@ -36,6 +36,7 @@
                         </li>
                     </ul>
                     <a asp-action="TasksPage" asp-route-group="@item.Id" class="btn btn-dark mt-2">To Tasks</a>
+                    <a asp-action="DeleteGroup" asp-route-groupId="@item.Id" class="btn btn-danger mt-2">Delete</a>
 @*                     <form method="post" asp-action="DeleteGroup">
                         <input type="hidden" name="id" value="@item.Id" />
                         <button type="submit" class="btn btn-danger">Delete</button>
